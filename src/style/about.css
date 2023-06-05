@@ -1,0 +1,52 @@
+.about{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: blanchedalmond;
+    height: 500px;
+    font-size: 20px;
+    width: 100%;
+}
+.backphoto{
+    z-index: -1;
+    height: 300px;  
+}
+.frontphoto{
+    height: 260px;
+    position: relative;
+    top: 40px;
+    left: 280px; 
+  
+}
+.aboutbtn{
+margin: 15px;
+   padding: 10px;
+   width: 110px;
+   background-color: yellow;
+   color: #090909;
+   font-weight: bold;
+}
+.pagecontainer{
+    margin: 0;
+    background-image: url("../photo/about.webp");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    
+   
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+   margin-top: 0;
+   font-size: 20px;
+}
+h1{
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 50px;
+}

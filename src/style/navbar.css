@@ -1,0 +1,14 @@
+.navbar{  
+    position: fixed;
+    background-color: rgba(3, 3, 3, 0.1);
+    color: #f8f8f9;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.linkseaction{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}

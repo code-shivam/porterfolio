@@ -1,0 +1,33 @@
+
+.seaction{
+    color: #050505;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  font-size: 30px;
+}
+.home{
+    background-image:url("../photo/istockphoto-1439425791-170667a.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;   
+}
+
+.btn{
+font-size: 20px;
+padding: 15px;
+margin: 15px; 
+width: 160px;
+font-weight: bold;
+background: none;
+color: rgb(253, 252, 252);
+/* background-color: rgb(117, 115, 115); */
+
+}
+.yellow{
+  background-color: yellow;
+  color: black;
+
+}
