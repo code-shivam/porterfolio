@@ -12,6 +12,8 @@ function Project() {
       name: "My Portfolio",
       image: project01,
       discription: "Technology Used - React ",
+      view:"https://647dc6eb6b3eef0782dd4e54--tourmaline-muffin-e2416a.netlify.app/"
+,code:"https://github.com/code-shivam/portfolio",
     },
     {
       id: 2,
@@ -19,12 +21,16 @@ function Project() {
       image: project02,
       discription:
         "Technology Used - React ,React-redux ",
+        view :"https://64781fbf43afce30c9a2380a--tourmaline-muffin-e2416a.netlify.app/",
+        code:"https://github.com/code-shivam/ticket-booking-app"
     },
     {
       id: 3,
       name: "Thali bookin app",
       image: project03,
       discription: "Technology Used - React ,React-redux",
+      view :"https://647dc465d02a2b09072b9304--tourmaline-muffin-e2416a.netlify.app/"
+,code:"https://github.com/code-shivam/thaliapp"
     },
   ];
   return (
@@ -39,8 +45,8 @@ function Project() {
               <h3> {el.name}</h3>
               <p> {el.discription} </p>
               <div className="btnseaction">
-              <a><button className=" projectbtn">View</button></a>
-              <a><button className=" projectbtn">Code</button></a>
+              <a href={el.view} target="blank"><button className=" projectbtn">View</button></a>
+              <a href={el.code} target="blank"><button className=" projectbtn">Code</button></a>
               </div>
             </div>
           );
